@@ -1,18 +1,62 @@
+body{
+    background-color: #CCCFE0;   
+}
+.nomprenom{
+    padding-left: 45px;
+}
+.div_tot{
+    margin-left: 245px;
+    margin-right: 95px;
+    border: 10px inset #8DF7ED;
+}
+.ref{
+    position: fixed !important;
+    display: block;
+    color: black;
+    padding: 0px 0px;
+    margin-left: 0px;
+    text-decoration: none;
+    font-family: sans-serif; 
+}
+li a:hover:not(.active) {
+  background-color: #8DF7ED;
+}
+
+.active {
+  background-color: #CCCFE0;
+}
 .titre{
-                background-color: #B1B29D;
-                color:blue;
+                font-family: sans-serif;
+                color:black;
                 text-align: center;
+                padding: 10px;
+                margin: 30px;           
             }
+            
+.mdl-slidermdl-js-slider{
+    margin-left: 25%;
+    background-color: white !important; 
+    position: fixed !important; 
+    top: auto; 
+    z-index: auto;
+    width: 30vw;
+    height: 50px; 
+}
+.forme{
+    background-color: #8DF7ED;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
 .infos{
     
-    color: blue;
+    margin-left: 15px;
+    color: black;
     text-align:left;
     font-size: larger;
-    font-style: italic;
-   /* background-color: #FFFFFF;*/
+    font-family: sans-serif;
 }
 .formation{
-    /*background-color: #CDF1E8;*/
      color: black;
      font-size: medium;
       font-style: normal; 
